@@ -50,12 +50,10 @@ header a:hover {
 main {
     font-family: var(--fonte3);
     font-size: 2.9em;
-    max-width: 100%;
 }
 
 main > p {
-    text-indent:20px;
-    max-width: 100%;
+    text-indent:20px;;
 }
 
 div#flor {
