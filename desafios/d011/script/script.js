@@ -1,1 +1,0 @@
-document.getElementById('musica').play()
