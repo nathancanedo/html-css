@@ -83,9 +83,9 @@ section#infos img:hover {
 main {
     background-color: white;
     max-width: 1000px;
-    height: 100%;
     margin: auto;
-    padding: 15px;
+    padding: 0px 15px;
+    box-shadow: 4px 2px 7px rgba(0, 0, 0, 0.349);
 }
 
 h1#portfolios {
@@ -120,8 +120,8 @@ section.imagem:hover {
     text-decoration: underline;
 }
 
-section#dev {
-    background: black url(../imagens/wallpaper-dev.jpg) center center no-repeat fixed;
+section#arte {
+    background: black url('../imagens/wallpaper-teatro-pq.jpg') center top no-repeat fixed;
     background-size: cover;
 }
 
@@ -140,8 +140,8 @@ section.imagem  h2 {
     transform: translate(-50%, -50%);
 }
 
-section#arte {
-    background: black url('../imagens/wallpaper-dev.jpg') center center no-repeat fixed;
+section#dev {
+    background: black url('../imagens/wallpaper-dev.jpg') center top no-repeat fixed;
     background-size: cover;
     height: 300px;
 }
