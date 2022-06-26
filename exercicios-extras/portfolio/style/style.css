@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #404EED;
+    --cor2: #1E246E;
+    --cor3: #8991F0;
+    --cor4: #3F426E;
+    --cor5: #323EBA;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    height: 100%;
+}
+
+header {
+    background-color: var(--cor3);
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 3em;
+    padding-bottom: 10px;
+    font-variant: small-caps
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.4em;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+img#perfil {
+    height: 300px;
+    width: 300px;
+    border-radius: 1000px;
+    padding: 10px;
+}
+
+section.linha {
+    display: inline-block;
+}
+
+section#infos {
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 15px;
+}
+
+section#infos img {
+    position: relative;
+    margin-top: 15px;
+}
+
+section#infos img:hover {
+    top: -2px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.555);
+    border-radius: 100px;
+}
+
+section#sobre {
+    padding: 10px;
+    max-width: 370px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 30px 10px;
+}
+
+
+
+@media (max-width: 750px){
+    header {
+        height: 200px;
+    }
+    
+    img#perfil {
+        width: 25vw;
+        height: 25vw;
+    }
+
+    header h1 {
+        font-size: 7vw;
+    }
+
+    header a {
+        font-size: 1.5vh;
+    }
+
+
+}
