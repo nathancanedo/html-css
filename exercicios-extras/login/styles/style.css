@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #0A4F94;
+    --cor2: #3B9DFF;
+    --cor3: #1D7FE0;
+    --cor4: #945D00;
+    --cor5: #E0981D;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor2);
+}
+
+header {
+    background-color: var(--cor1);
+    padding: 10px;
+    height: 80px;
+}
+
+nav {
+    background-color: var(--cor1);
+    padding: 10px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.411);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+nav a:hover {
+    background-color: var(--cor3);
+}
+
+main {
+    background-color: white;
+    max-width: 500px;
+    height: 500px;
+
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.404);
+}
+
+
+
+section#login h1 {
+    font-size: 2.5em;
+    padding: 30px;
+    margin-bottom: 20px;
+}
