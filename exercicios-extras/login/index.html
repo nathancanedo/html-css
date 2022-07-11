@@ -20,19 +20,20 @@
         <section id="login">
             <section>
                 <h1>Login</h1>
-                <form>
+                <form id="form">
                     <p>
                         <label for="user">Usuário</label>
                         <input type="text" name="user" id="user" required>
                     </p>
                     <p>
                         <label for="password">Senha</label>
-                        <input type="password" name="password" id="password">
+                        <input type="password" name="password" id="password" required>
                     </p>
-                    <button>Entrar</button>
+                    <input type="submit" value="Entrar" id="botao" onclick="login()"></input>
                 </form>
             </section>
         </section>
     </main>
+    <script src="scripts/login.js"></script>
 </body>
 </html>
