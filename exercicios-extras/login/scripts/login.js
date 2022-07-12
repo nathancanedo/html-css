@@ -1,10 +1,7 @@
+const users = [{user: 'nathan', password: 1234}, {user: 'caalf', password: 1234}];
+
 function login() {
-
-    const users = [{user: 'nathan', password: 1234
-}, {user: 'caalf', password: 1234}]
-
-    users.push({user: 'jorge', password: 1234});
-
+    
     impedirPaginaDeAtualizar()
 
     function impedirPaginaDeAtualizar(){
@@ -35,5 +32,18 @@ function login() {
         } else {
             alert('usuario ou senha incorretos')
         }
-    }  
+    }
+}
+
+function registrar() {
+    let user = prompt('Digite um usuario');
+    let password = prompt('digite uma senha');
+
+    adicionarNovoUsuario(user, password)
+
+    function adicionarNovoUsuario(user, password){
+
+        users.push({user: user, password: password});
+        console.log(users);   
+    }
 }
