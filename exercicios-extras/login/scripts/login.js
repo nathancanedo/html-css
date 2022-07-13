@@ -1,4 +1,4 @@
-const users = [{user: 'nathan', password: 1234}, {user: 'caalf', password: 1234}];
+const users = [{user: 'adm', password: 'adm'}];
 
 function login() {
     
