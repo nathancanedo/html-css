@@ -33,10 +33,11 @@ function login() {
             alert('usuario ou senha incorretos')
         }
     }
+
 }
 
 function registrar() {
-    let user = prompt('Digite um usuario');
+let user = prompt('Digite um usuario');
     let password = prompt('digite uma senha');
 
     adicionarNovoUsuario(user, password)
@@ -47,3 +48,4 @@ function registrar() {
         console.log(users);   
     }
 }
+
