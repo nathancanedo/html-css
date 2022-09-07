@@ -5,12 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
+    <!-- Icones do Google -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="estilos/style.css">
+    <!-- Estilo mobile firt -->
+    <link rel="stylesheet" href="estilos/style.css"> 
+
 </head>
 <body>
     <header>
-        <h1>Meu Site</h1>
+        <h1>Notícias da Cidade</h1>
         <span class="material-symbols-outlined" id="burguer" onclick="clickMenu()">
             menu
             </span>
@@ -27,18 +30,27 @@
     </header>
     <main>
         <article>
-            <h2>Testando Media Query</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum saepe vel exercitationem voluptate blanditiis explicabo. Asperiores quaerat labore quisquam pariatur commodi, optio vero quis et delectus reiciendis. Et, atque suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, amet. Doloribus cupiditate dolore illo tempore consectetur, deleniti ullam natus libero dolor est ipsam vitae excepturi? Officiis laboriosam ullam dolor repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia excepturi, aliquam expedita reiciendis culpa quae facilis autem quo rerum. Nulla totam enim iure quaerat ab quis fugiat voluptate impedit ad.</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, maiores? Voluptatum sed iste, vel animi distinctio repellat aperiam quasi amet beatae autem est ex tempora ipsum ullam harum dicta non? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quibusdam animi modi! Aperiam voluptates dolore iure, officiis cupiditate debitis voluptate nobis exercitationem inventore provident nulla quae possimus quis magnam reiciendis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente corrupti officiis in doloremque quia exercitationem ratione architecto sint fugit saepe ducimus aliquid ea error, recusandae nulla nihil illo commodi nemo!</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed voluptates nihil sequi error eveniet, laborum dolorum molestiae numquam illo sint? Possimus obcaecati necessitatibus aliquam harum iure qui ipsum impedit totam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, delectus quam quibusdam saepe magni modi, ea quia doloribus temporibus cupiditate soluta vero ratione voluptas ex! Quis, autem dignissimos! Sunt, suscipit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit adipisci et dolorum aliquid modi exercitationem ab totam sint nam recusandae maxime tempore blanditiis, itaque ut, molestias, odio reprehenderit numquam in!</p>
+            <h2>Enfermeiros desfilam em avenida de Anápolis para protestar contra suspensão do piso salarial</h2>
+            <div id="imagem">
+                <img src="https://www.maisgoias.com.br/cdn-cgi/image/fit=contain,width=414,quality=90,format=auto/https://uploads.maisgoias.com.br/2022/09/c7169bec-whatsapp-image-2022-09-07-at-10.56.26-960x640.jpeg" alt="enfermeiros desfilam contra suspensão do piso salarial em anápolis">
+            </div>
+            <p>Em Anápolis, durante o desfile de 7 de setembro, enfermeiros, técnicos de enfermagem e auxiliares desfilaram na Avenida Goiás para manifestar contra a suspensão do piso salarial da categoria.</p>
+
+            <p>Aos gritos de “A enfermagem vai parar, quem vai cuidar?”  os profissionais da saúde foram aplaudidos pelo público que acompanhava o desfile cívico.</p>
+
+            <p>As reivindicações e os protestos são direcionados ao Supremo Tribunal Federal (STF) que suspendeu, na última semana, por 60 dias, a lei aprovada e sancionada que estabelece o piso nacional da categoria em R$ 4750.</p>
+
+            <p>A decisão vale até que sejam analisados dados detalhados dos estados, municípios, órgãos do governo federal, conselhos e entidades da área da saúde sobre o impacto financeiro para os atendimentos e os riscos de demissões diante da implementação do piso. O prazo para que essas informações sejam enviadas ao STF é de 60 dias.</p>
+
+            <p>“Estou aqui com todos os enfermeiros, lutando pelo nosso piso salarial que já virou lei. Enfermagem salva-vidas e merece viver com dignidade”, disse um dos manifestantes.</p>
         </article>
     </main>
     <script>
         function clickMenu() {
-            if (menu.style.display == 'none') {
-                menu.style.display = 'block';
-            } else {
+            if (menu.style.display == 'block') {
                 menu.style.display = 'none';
+            } else {
+                menu.style.display = 'block';
             }
         }
     </script>
